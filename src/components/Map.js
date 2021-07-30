@@ -14,7 +14,7 @@ const MapStyles = styled.div`
   .map__card {
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    bottom: 5%;
     padding: 2rem;
     background: var(--deep-dark);
     max-width: 300px;
@@ -53,7 +53,7 @@ export default function Map() {
           <h3 className="map__card__heading">Here is me</h3>
           <PText>Barcelona, Catalunya, Spain</PText>
           <a
-            href="#"
+            href="https://goo.gl/maps/ZZWNppsPMRb41m3P9"
             target="_blank"
             rel="noreferrer"
             className="map__card__link"

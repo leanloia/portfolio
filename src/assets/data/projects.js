@@ -15,6 +15,8 @@ const projects = [
     name: 'travelWith',
     desc: 'Web-app for organize travel with friends.',
     img: TravelWith,
+    linkLive: 'https://travel-with.herokuapp.com/',
+    linkCode: 'https://github.com/murbano17/travelwith-client',
   },
   {
     id: uuidv4(),
@@ -22,18 +24,24 @@ const projects = [
     desc:
       'An small calendar-app project, design for sharing a common calendar within a small group of people.',
     img: CalendarApp,
+    linkLive: 'https://react-calendarapp.herokuapp.com/',
+    linkCode: 'https://github.com/leanloia/REACT-calendar-app',
   },
   {
     id: uuidv4(),
     name: 'JournalApp',
     desc: 'An small project web-app to keep a small journal.',
     img: JournalApp,
+    linkLive: '',
+    linkCode: 'https://github.com/leanloia/journal-app',
   },
   {
     id: uuidv4(),
     name: 'localSHOP',
     desc: 'web platform for local small business.',
     img: LocalShop,
+    linkLive: 'https://localshop-ml.herokuapp.com/',
+    linkCode: 'https://github.com/leanloia/localSHOP',
   },
   // {
   //   id: uuidv4(),

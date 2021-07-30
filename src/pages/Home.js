@@ -4,7 +4,7 @@ import ContactBanner from '../components/ContactBanner';
 import HeroSection from '../components/HeroSection';
 import ProjectSection from '../components/ProjectSection';
 import ServiceSection from '../components/ServiceSection';
-import TestimonialsSection from '../components/TestimonialsSection';
+// import TestimonialsSection from '../components/TestimonialsSection';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <AboutSection />
       <ServiceSection />
       <ProjectSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <ContactBanner />
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import emailjs from 'emailjs-com';
 
 const FormStyles = styled.div`
   width: 100%;
@@ -45,8 +46,32 @@ export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_xmyb0yp',
+        'template_vo3gqsi',
+        e.target,
+        'user_iGNYrHdtYob2VLo4MLE7z'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    setName('');
+    setEmail('');
+    setMessage('');
+  }
+
   return (
-    <div>
+    <form onSubmit={sendEmail}>
       <FormStyles>
         <div className="form-group">
           <label htmlFor="name">
@@ -86,6 +111,6 @@ export default function ContactForm() {
         </div>
         <button type="submit">Send</button>
       </FormStyles>
-    </div>
+    </form>
   );
 }

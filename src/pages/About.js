@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from '../components/Button';
+// import Button from '../components/Button';
 import PText from '../components/PText';
 import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
+import DownloadButton from '../components/DownloadButton';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -89,25 +90,25 @@ export default function About() {
             <h2 className="about__subheading">A freelance Web Developer</h2>
             <div className="about__info">
               <PText>
-                I am from Chittagong, Bangladesh. A place of beauty and nature.
-                Since my childhood, I love art and design. I always try to
-                design stuff with my unique point of view. I also love to create
-                things that can be useful to others.
+                I'm from Buenos Aires, Argentina. Since I was a child, I love
+                learning. I'd started to read from an early age and that mark my
+                childhood.
                 <br />
                 <br />
-                I started coding since I was in high school. Coding is also an
-                art for me. I love it and now I have the opportunity to design
-                along with coding. I find it really interesting and enjoyed the
-                process a lot.
+                I like to read and write, and as a hobbie, I'd interested in
+                different kinds of languages. I studied german, french, and dive
+                into programming languages just from curiosity.
                 <br />
                 <br />
-                My vision is to make the world a better place. Now almost
-                everything is becomming better than ever. It is time for us to
-                create more good stuff that helps the world to become a better
-                place.
+                As an adult, changing paths -professionally- gave me the
+                opportunity to develop an interest in a more serious way, and
+                that is what took me to this search for improve and transfer
+                some of my own passion for this world while I enjoy having a
+                empty canvas to work with.
               </PText>
             </div>
-            <Button btnText="Download CV" btnLink="#" />
+            {/* <Button btnText="Download CV" btnLink="#" /> */}
+            <DownloadButton btnLink="./cv.pdf" btnText="Download CV" />
           </div>
           <div className="right">
             <img src={AboutImg} alt="" />
@@ -117,23 +118,20 @@ export default function About() {
           <div className="about__info__item">
             <h1 className="about__info__heading">Education</h1>
             <AboutInfoItem
+              title="High School"
+              items={['E.T. "Casal Calviño", Buenos Aires']}
+            />
+            <AboutInfoItem
               title="School"
-              items={['Nasirbad Govt. High School, Chittagong']}
+              items={['Esc. Fotografía "Andy Goldstein", Buenos Aires']}
             />
-            <AboutInfoItem
-              title="College"
-              items={['BAF Shaheen College Chittagong']}
-            />
-            <AboutInfoItem
-              title="Varsity"
-              items={['University of Chittagong']}
-            />
+            <AboutInfoItem title="Bootcamp" items={['Ironhack, Barcelona']} />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">My skills</h1>
             <AboutInfoItem
               title="FrontEnd"
-              items={['HTML', 'CSS', 'JavaScript', 'React.js']}
+              items={['HTML', 'CSS', 'JavaScript', 'React.js', 'Redux']}
             />
             <AboutInfoItem
               title="BackEnd"
@@ -144,16 +142,16 @@ export default function About() {
           <div className="about__info__item">
             <h1 className="about__info__heading">Experience</h1>
             <AboutInfoItem
-              title="2010-2012"
-              items={['junior developer at web Cifar']}
-            />
-            <AboutInfoItem
-              title="2012-2016"
-              items={['Frond end developer at web Cifar']}
-            />
-            <AboutInfoItem
-              title="2016 - "
+              title="2021 - "
               items={['Freelance web Developer']}
+            />
+            <AboutInfoItem
+              title="2020"
+              items={["Teacher's Assistant, at Ironhack's bootcamp"]}
+            />
+            <AboutInfoItem
+              title="2020"
+              items={['Fullstack bootcamp, at Ironhack']}
             />
           </div>
         </div>
