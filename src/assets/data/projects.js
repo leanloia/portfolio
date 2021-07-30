@@ -32,7 +32,7 @@ const projects = [
     name: 'JournalApp',
     desc: 'An small project web-app to keep a small journal.',
     img: JournalApp,
-    linkLive: '',
+    linkLive: 'https://react-app-cursos-61d87.web.app',
     linkCode: 'https://github.com/leanloia/journal-app',
   },
   {
