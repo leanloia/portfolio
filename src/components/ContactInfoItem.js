@@ -8,7 +8,7 @@ const ItemStyles = styled.div`
   background-color: var(--deep-dark);
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   border-radius: 8px;
   margin-bottom: 2rem;
   .icon {
@@ -21,6 +21,15 @@ const ItemStyles = styled.div`
   }
   svg {
     width: 3.5rem;
+  }
+
+  @media only screen and (max-width: 365px) {
+    gap: 0.7rem;
+    padding: 1.2rem;
+
+    .info > div {
+      font-size: 1.2rem;
+    }
   }
 `;
 

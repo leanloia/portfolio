@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import Button from '../components/Button';
 import PText from '../components/PText';
-// import AboutImg from '../assets/images/about-page-img.png';
 import AboutImg from '../assets/images/pic2.JPG';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
@@ -118,15 +116,15 @@ export default function About() {
         <div className="about__info__items">
           <div className="about__info__item">
             <h1 className="about__info__heading">Education</h1>
+            <AboutInfoItem title="Bootcamp" items={['Ironhack, Barcelona']} />
+            <AboutInfoItem
+              title="Photography School"
+              items={['Esc. Fotografía "Andy Goldstein", Buenos Aires']}
+            />
             <AboutInfoItem
               title="High School"
               items={['E.T. "Casal Calviño", Buenos Aires']}
             />
-            <AboutInfoItem
-              title="School"
-              items={['Esc. Fotografía "Andy Goldstein", Buenos Aires']}
-            />
-            <AboutInfoItem title="Bootcamp" items={['Ironhack, Barcelona']} />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">My skills</h1>

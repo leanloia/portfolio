@@ -90,6 +90,12 @@ const NavMenuStyles = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 375px) {
+    .navItems {
+      right: 4rem;
+    }
+  } ;
 `;
 
 export default function NavMenu() {
