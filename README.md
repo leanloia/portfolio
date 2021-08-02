@@ -1,5 +1,5 @@
 # React Portfolio website
 
-Designed by - [shaif Arfan](http://github.com/shaifarfan) | [web cifar](http://webcifar.com)
+Designed by - [Leandro Loiacono](http://github.com/leanloia)
 
 ![](./ReadMeImages/ReadMeBanner.png)

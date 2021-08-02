@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link as a } from 'react-router-dom';
+// import { Link as a } from 'react-router-dom';
 import styled from 'styled-components';
 import projectImg from '../assets/images/projectImg.png';
-import Button from './Button';
+// import Button from './Button';
 
 const ProjectItemStyle = styled.div`
   .projectItem__img {

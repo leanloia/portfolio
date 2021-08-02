@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
-import HeroImg from '../assets/images/hero.png';
+// import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/pic.jpg';
+
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 
@@ -68,7 +70,7 @@ const HeroStyles = styled.div`
       text-transform: uppercase;
     }
     img {
-      max-heigth: 45px;
+      max-height: 45px;
       width: 16px;
       margin: 0 auto;
       object-fit: contain;

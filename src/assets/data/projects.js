@@ -20,6 +20,14 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'localSHOP',
+    desc: 'web platform for local small business.',
+    img: LocalShop,
+    linkLive: 'https://localshop-ml.herokuapp.com/',
+    linkCode: 'https://github.com/leanloia/localSHOP',
+  },
+  {
+    id: uuidv4(),
     name: 'CalendarApp',
     desc:
       'An small calendar-app project, design for sharing a common calendar within a small group of people.',
@@ -34,14 +42,6 @@ const projects = [
     img: JournalApp,
     linkLive: 'https://react-app-cursos-61d87.web.app',
     linkCode: 'https://github.com/leanloia/journal-app',
-  },
-  {
-    id: uuidv4(),
-    name: 'localSHOP',
-    desc: 'web platform for local small business.',
-    img: LocalShop,
-    linkLive: 'https://localshop-ml.herokuapp.com/',
-    linkCode: 'https://github.com/leanloia/localSHOP',
   },
   // {
   //   id: uuidv4(),
