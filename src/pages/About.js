@@ -118,7 +118,7 @@ export default function About() {
             <h1 className="about__info__heading">Education</h1>
             <AboutInfoItem title="Bootcamp" items={['Ironhack, Barcelona']} />
             <AboutInfoItem
-              title="Photography School"
+              title="Photography"
               items={['Esc. Fotografía "Andy Goldstein", Buenos Aires']}
             />
             <AboutInfoItem
