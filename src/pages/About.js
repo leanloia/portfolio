@@ -107,7 +107,10 @@ export default function About() {
               </PText>
             </div>
             {/* <Button btnText="Download CV" btnLink="#" /> */}
-            <DownloadButton btnLink="./cv.pdf" btnText="Download CV" />
+            <DownloadButton
+              btnLink="./cv__en_leandro_loiacono.pdf"
+              btnText="Download CV"
+            />
           </div>
           <div className="right">
             <img src={AboutImg} alt="" />

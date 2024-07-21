@@ -4,6 +4,7 @@ import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
 import AboutImg from '../assets/images/Fondo.png';
+import DownloadButton from './DownloadButton';
 
 const AboutSectionStyle = styled.div`
   padding: 10rem 0;
@@ -29,7 +30,7 @@ const AboutSectionStyle = styled.div`
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   @media only screen and (max-width: 950px) {
@@ -91,8 +92,15 @@ export default function AboutSection() {
             develop my own skills and learn new things.
           </PText>
           <div className="aboutSection__buttons">
+            <Button btnLink="/about" btnText="Read more" />
             <Button btnLink="/projects" btnText="Works" />
-            <Button btnLink="/about" btnText="Read more" outline />
+          </div>
+          <div className="aboutSection__buttons">
+            <DownloadButton
+              btnLink="./cv__en_leandro_loiacono.pdf"
+              btnText="Download CV"
+              outline
+            />
           </div>
         </div>
         <div className="aboutSection__right">

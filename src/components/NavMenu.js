@@ -95,7 +95,7 @@ const NavMenuStyles = styled.div`
     .navItems {
       right: 4rem;
     }
-  } ;
+  }
 `;
 
 export default function NavMenu() {
@@ -110,7 +110,7 @@ export default function NavMenu() {
         onKeyDown={() => setShowNav(!showNav)}
         tabIndex={0}
       >
-        <MdMenu />
+        <MdMenu aria-label="menu" />
       </div>
       <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
         <div
@@ -120,7 +120,7 @@ export default function NavMenu() {
           onKeyDown={() => setShowNav(!showNav)}
           tabIndex={0}
         >
-          <MdClose />
+          <MdClose aria-label="close" />
         </div>
         <li>
           <NavLink

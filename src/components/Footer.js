@@ -142,7 +142,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Leandro Loiacono | Designed By Leandro Loiacono
+            © 2024 - Leandro Loiacono | Designed By Leandro Loiacono
           </PText>
         </div>
       </div>

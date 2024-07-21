@@ -29,8 +29,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'CalendarApp',
-    desc:
-      'An small calendar-app project, design for sharing a common calendar within a small group of people.',
+    desc: 'An small calendar-app project, design for sharing a common calendar within a small group of people.',
     img: CalendarApp,
     linkLive: 'https://react-calendarapp.herokuapp.com/',
     linkCode: 'https://github.com/leanloia/REACT-calendar-app',
